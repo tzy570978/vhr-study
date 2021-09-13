@@ -1,10 +1,16 @@
 <template>
     <div>
         <el-form>
-            <div class="">
-                <h3 class="">Login Form</h3>
+            <div>
+                <h3>Login Form</h3>
             </div>
             <el-form>
+                <span>
+                    <svg-icon icon-class="user"/>
+                </span>
+                <span>
+                    <svg-icon icon-class="user4553"/>
+                </span>
                 <el-input></el-input>
             </el-form>
         </el-form>
