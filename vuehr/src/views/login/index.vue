@@ -8,9 +8,9 @@
       </div>
 
       <el-form-item prop="username">
-                <span class="svg-container">
-                    <svg-icon icon-class="user"/>
-                </span>
+        <span class="svg-container">
+          <svg-icon icon-class="user"/>
+        </span>
         <el-input
           ref="username"
           v-model="loginForm.username"
@@ -24,9 +24,9 @@
 
       <el-tooltip v-model="capsTooltip" content="Caps lock is On" placement="right" manual>
         <el-form-item prop="password">
-                    <span class="svg-container">
-                        <svg-icon icon-class="password"/>
-                    </span>
+          <span class="svg-container">
+            <svg-icon icon-class="password"/>
+          </span>
           <el-input
             :key="passwordType"
             ref="password"
@@ -41,8 +41,8 @@
             @keyup.enter.native="handleLogin"
           />
           <span class="show-pwd" @click="showPwd">
-                        <svg-icon :icon-class="passwordType === 'password' ? 'eye' : 'eye-open'"/>
-                    </span>
+            <svg-icon :icon-class="passwordType === 'password' ? 'eye' : 'eye-open'"/>
+          </span>
         </el-form-item>
       </el-tooltip>
 
